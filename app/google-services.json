@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "379139550",
+    "firebase_url": "https://majestic-masonry.firebaseio.com",
+    "project_id": "majestic-masonry",
+    "storage_bucket": "majestic-masonry.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379139550:android:163ba9c173a3528c37d94f",
+        "android_client_info": {
+          "package_name": "com.example.majesticmasonry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379139550-vqfgsqrdm5q7e93sbaj873ndfcg5mbd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.majesticmasonry",
+            "certificate_hash": "2e36d45538f7e95f5b0ede3e11877e184cb136d9"
+          }
+        },
+        {
+          "client_id": "379139550-c8g3c3bpig582nek24kfsvt1k5h3ivdn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtbeHomuqHmAexPzP1LLGWaCBD8gcaB44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379139550-c8g3c3bpig582nek24kfsvt1k5h3ivdn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

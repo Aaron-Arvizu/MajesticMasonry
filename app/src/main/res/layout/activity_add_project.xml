@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".AddProject">
+
+    <EditText
+        android:id="@+id/addressBox"
+        android:layout_width="440dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="967dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="Enter Address of Site"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="174dp"
+        android:layout_height="59dp"
+
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="254dp"
+        android:layout_marginEnd="577dp"
+        android:layout_marginBottom="967dp"
+        android:gravity="center|right"
+        android:text="Address:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/zipCodeBox"
+        android:layout_width="440dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="341dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="872dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="Enter Zip Code"
+        android:inputType="numberSigned"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="174dp"
+        android:layout_height="59dp"
+
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="577dp"
+        android:layout_marginBottom="872dp"
+        android:gravity="center|right"
+        android:text=" Zip Code:"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/projectName"
+        android:layout_width="440dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="244dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="1062dp"
+        android:background="@drawable/rounded_corner"
+        android:ems="10"
+        android:hint="Enter Project Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="174dp"
+        android:layout_height="59dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="159dp"
+        android:layout_marginEnd="566dp"
+        android:layout_marginBottom="1062dp"
+        android:gravity="center"
+        android:text="Project Name: "
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/completeButton"
+        android:layout_width="512dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="1070dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Complete Project Creation"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

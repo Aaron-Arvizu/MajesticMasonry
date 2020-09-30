@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/addproject"
+        android:layout_width="592dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="850dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="295dp"
+        android:background="@drawable/rounded_corner"
+        android:text="add project"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/logoutbtn"
+        android:layout_width="107dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="651dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="1145dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewproj"
+        android:layout_width="592dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="465dp"
+        android:background="@drawable/rounded_corner"
+        android:text="project list"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/userNameBox"
+        android:layout_width="238dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="473dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="1145dp"
+        android:gravity="center|start"
+        android:text="User:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="371dp"
+        android:layout_height="315dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="262dp"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="703dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/crown" />
+</android.support.constraint.ConstraintLayout>

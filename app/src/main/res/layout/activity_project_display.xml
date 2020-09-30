@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ProjectDisplay">
+
+
+    <TextView
+        android:id="@+id/projNameBox"
+        android:layout_width="536dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="1083dp"
+        android:gravity="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="684dp"
+        android:layout_height="421dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="662dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/buildingphoto" />
+
+    <TextView
+        android:id="@+id/addAndZipBox"
+        android:layout_width="480dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="579dp"
+        android:layout_marginEnd="160dp"
+        android:layout_marginBottom="662dp"
+        android:gravity="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dailyLogButton"
+        android:layout_width="528dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="504dp"
+        android:background="@drawable/rounded_corner"
+        android:text="Daily Log"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/viewLogBtn"
+        android:layout_width="237dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="796dp"
+        android:layout_marginEnd="281dp"
+        android:layout_marginBottom="419dp"
+        android:text="view logs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
